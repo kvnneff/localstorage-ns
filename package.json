@@ -1,8 +1,13 @@
 {
   "name": "localstorage-ns",
   "description": "Namespaced key/value store backed by localStorage with events and default value loading.",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "author": "Kevin Neff <kvnneff@gmail.com>",
+  "browserify": {
+    "transform": [
+      "babelify"
+    ]
+  },
   "bugs": {
     "url": "https://github.com/kvnneff/localstorage-ns/issues"
   },
