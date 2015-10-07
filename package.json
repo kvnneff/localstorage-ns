@@ -1,0 +1,31 @@
+{
+  "name": "localstorage-ns",
+  "description": "Namespaced key/value store backed by localStorage with events and default value loading.",
+  "version": "1.0.0",
+  "author": "Kevin Neff <kvnneff@gmail.com>",
+  "bugs": {
+    "url": "https://github.com/kvnneff/localstorage-ns/issues"
+  },
+  "dependencies": {
+    "component-clone": "^0.2.2",
+    "component-emitter": "^1.2.0"
+  },
+  "devDependencies": {
+    "babelify": "^6.3.0",
+    "mochify": "^2.13.0"
+  },
+  "homepage": "https://github.com/kvnneff/localstorage-ns#readme",
+  "keywords": [
+    "browser",
+    "localstorage"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kvnneff/localstorage-ns.git"
+  },
+  "scripts": {
+    "test": "mochify --transform babelify test/index.js"
+  }
+}
