@@ -7,7 +7,7 @@ Namespaced key/value store backed by localStorage with events and default value 
 import Store from 'localStorage-ns'
 
 let foo = Store('foo', {age: 34})
-let bar = Store('bar', {age: 28})
+let bar = Store('bar', {age: 29})
 
 foo.set('name', 'Kevin')
 bar.set('name', 'Charlie')
@@ -16,7 +16,7 @@ foo.get('name') //=> 'Kevin'
 foo.get('age') //=> '34'
 
 bar.get('name') //=> 'Charlie'
-bar.get('age') //=> '28'
+bar.get('age') //=> '29'
 ```
 
 ## API
